@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/utils/bmp.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+../src/utils/encoder.h
+stdint.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+../src/utils/imageIO.h
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+bmp.h
+../src/utils/bmp.h
+
+/home/gianluca/Documents/Advance System Lab/team033/src/benchmark/benchmark.h
+stdio.h
+-
+stdbool.h
+-
+
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imageCompressor.c
+imageCompressor.h
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imageCompressor.h
+
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imageCompressor.h
+imagetransform.h
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imagetransform.h
+encoder.h
+-
+
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imagetransform.c
+imagetransform.h
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imagetransform.h
+immintrin.h
+-
+
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imagetransform.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+imageIO.h
+-
+math.h
+-
+assert.h
+-
+../benchmark/benchmark.h
+/home/gianluca/Documents/Advance System Lab/team033/src/benchmark/benchmark.h
+
+/home/gianluca/Documents/Advance System Lab/team033/src/main.c
+compression/imageCompressor.h
+/home/gianluca/Documents/Advance System Lab/team033/src/compression/imageCompressor.h
+
